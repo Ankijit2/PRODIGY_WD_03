@@ -22,6 +22,7 @@ startGame()
 
 restartButton.addEventListener('click', startGame);
 function startGame(){
+    player1turn = true;
     player.innerText = player1turn ? "1" : "2";
     cell.forEach(cell => {
        
