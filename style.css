@@ -129,6 +129,13 @@ body{
     flex-direction: column;
   }
 
+  @media screen and (max-width: 400px) {
+    .result{
+      font-size: 3rem;
+    }
+    
+  }
+
 .result.show{
   display: flex;
 }
